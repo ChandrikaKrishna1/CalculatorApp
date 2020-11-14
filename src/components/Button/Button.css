@@ -1,0 +1,35 @@
+.Btn {
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 45px;
+  height: 110px;
+  justify-content: center;
+  width: 110px;
+  transition: filter 0.3s ease-in;
+}
+
+.Btn:active,
+.Btn:focus {
+  filter: brightness(200%);
+}
+
+.Btn.equal {
+  width: 250px;
+  grid-column: 3 / span 2;
+  border-radius: 57.5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Btn.specialfunction {
+  color: rgb(17, 170, 241);
+  background: white;
+}
+
+.Btn.operator {
+  background: rgb(17, 170, 241);
+  color: white;
+}

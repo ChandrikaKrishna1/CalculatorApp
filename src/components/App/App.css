@@ -1,0 +1,29 @@
+.App {
+  background: #eaedef;
+  border-radius: 20px;
+  color: rgb(17, 170, 241);
+  height: 900px;
+  padding: 20px;
+  margin: auto;
+  width: 563px;
+}
+
+.header {
+  display: flex;
+  height: 110px;
+  justify-content: space-between;
+}
+
+.show {
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.Buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
